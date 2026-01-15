@@ -17,10 +17,6 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- SmartPlayer/ConverteAI -->
-    <script
-        src="https://scripts.converteai.net/ee4372af-211b-489b-9e9e-5c0e6c0725aa/players/67475f192a5c4d4acb990e5c/player.js"
-        async></script>
 
     <!-- Clarity -->
     <script type="text/javascript">
@@ -37,7 +33,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -383,31 +379,122 @@
         }
 
         /* ================================ */
-        /* VIDEO SECTION */
+        /* WHY SECTION (Por que funciona) */
         /* ================================ */
-        .video-section {
-            background: linear-gradient(135deg, #085d8a 0%, #674ea7 100%);
-            color: #fff;
+        .why-section {
+            background: #f5f0e8;
             padding: 70px 0;
+        }
+
+        .section-title {
             text-align: center;
-        }
-
-        .video-title {
-            font-size: 1.6rem;
-            margin-bottom: 10px;
-        }
-
-        .video-subtitle {
-            font-size: 1.2rem;
+            font-size: 1.8rem;
             margin-bottom: 30px;
+            color: #333;
         }
 
-        .video-container {
-            max-width: 800px;
-            margin: 0 auto 40px;
+        .separator-line {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .separator-line img {
+            max-width: 100%;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 50px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .why-grid.reverse {
+            direction: rtl;
+        }
+
+        .why-grid.reverse>* {
+            direction: ltr;
+        }
+
+        @media (max-width: 768px) {
+
+            .why-grid,
+            .why-grid.reverse {
+                grid-template-columns: 1fr;
+                direction: ltr;
+            }
+        }
+
+        .why-image img {
+            width: 100%;
             border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .why-content h3 {
+            font-size: 1.4rem;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .why-content p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .results-list {
+            list-style: none;
+        }
+
+        .results-list li {
+            padding: 10px 0;
+            font-size: 1.05rem;
+            color: #333;
+            border-bottom: 1px solid #eee;
+        }
+
+        .results-list li:last-child {
+            border-bottom: none;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #674ea7 0%, #5a3d9a 100%);
+            color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cta-box h3 {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .cta-icon {
+            width: 70px;
+            height: 70px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin: 0 auto 20px;
+        }
+
+        .cta-text {
+            font-size: 1.4rem;
+            margin-bottom: 25px;
         }
 
         /* ================================ */
@@ -1094,23 +1181,58 @@
     </section>
 
     <!-- ================================ -->
-    <!-- VIDEO SECTION -->
+    <!-- POR QUE FUNCIONA SECTION -->
     <!-- ================================ -->
-    <section class="video-section" id="video">
+    <section class="why-section" id="video">
         <div class="container">
-            <h2 class="video-title">Veja como é fácil ensinar seu filho(a) a ler...</h2>
-            <p class="video-subtitle">Aperte o play 👇</p>
+            <h2 class="section-title">Por que as atividades de Grafismo Fonético funcionam?</h2>
 
-            <!-- Player ConverteAI/SmartPlayer -->
-            <div class="video-container">
-                <div id="vid_67475f192a5c4d4acb990e5c" style="position: relative; width: 100%; padding: 56.25% 0 0;">
-                    <img id="thumb_67475f192a5c4d4acb990e5c"
-                        src="https://images.converteai.net/ee4372af-211b-489b-9e9e-5c0e6c0725aa/players/67475f192a5c4d4acb990e5c/thumbnail.jpg"
-                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
-                    <div id="backdrop_67475f192a5c4d4acb990e5c"
-                        style="position: absolute; top: 0; width: 100%; height: 100%; -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px);">
-                    </div>
+            <div class="separator-line">
+                <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Imagem-03-05-2025-as-14.58.jpeg"
+                    alt="Separador">
+            </div>
+
+            <div class="why-grid">
+                <div class="why-image">
+                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Menina-com-Atividades-Ludicas-de-Grafismo-Fonetico.webp"
+                        alt="Menina com atividades lúdicas de grafismo fonético">
                 </div>
+                <div class="why-content">
+                    <h3>Antes de aprender a ler, o cérebro da criança precisa reconhecer padrões, sons e movimentos.
+                    </h3>
+                    <p>As atividades de grafismo fonético desenvolvem a <strong>consciência fonológica e visual</strong>
+                        — habilidades essenciais para que a criança reconheça sílabas, sons e estruturas das palavras de
+                        forma natural.</p>
+                    <p>Ao traçar linhas, curvas e padrões fonéticos, ela fortalece as conexões cerebrais responsáveis
+                        pela leitura, <strong>acelerando o processo de alfabetização de forma divertida e sem
+                            pressão.</strong></p>
+                </div>
+            </div>
+
+            <div class="why-grid reverse">
+                <div class="why-image">
+                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Mae-com-seu-filho-ajudando-nas-atividades-de-grafismo-fonetico.webp"
+                        alt="Mãe ajudando filho nas atividades">
+                </div>
+                <div class="why-content">
+                    <h3>E em poucos dias você vai notar a diferença na leitura do seu filho:</h3>
+                    <ul class="results-list">
+                        <li>✅ Vai reconhecer sílabas e sons com mais facilidade</li>
+                        <li>✅ Vai se sentir mais confiante ao tentar ler palavras novas</li>
+                        <li>✅ Vai mostrar mais interesse por livros e histórias</li>
+                        <li>✅ Vai aprender no ritmo dele, sem frustração ou comparação</li>
+                        <li>✅ E o melhor: vai começar a gostar do momento de leitura em casa</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cta-box">
+                <h3>Com o <b>Kit de Grafismo Fonético, seu filho</b> desenvolve o cérebro para aprender a ler com
+                    leveza, no tempo dele — e com resultados visíveis em poucos dias.</h3>
+                <div class="cta-icon"><i class="fas fa-pencil-alt"></i></div>
+                <p class="cta-text">Comece a jornada de <b>aprendizado do seu filho hoje</b></p>
+                <a href="https://pay.cakto.com.br/3qye7jq_497015" class="btn-cta" id="btn-checkout">Quero meu filho(a)
+                    Lendo!</a>
             </div>
         </div>
     </section>
