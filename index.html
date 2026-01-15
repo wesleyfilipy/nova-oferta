@@ -12,11 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Player de Vídeo ConverteAI -->
+    <script
+        src="https://scripts.converteai.net/ee4372af-211b-489b-9e9e-5c0e6c0725aa/players/67475f192a5c4d4acb990e5c/player.js"
+        async></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Hero Section -->
+    <!-- ========== HERO SECTION ========== -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -45,11 +49,11 @@
         </div>
     </section>
 
-    <!-- Problem Section -->
+    <!-- ========== PROBLEM SECTION ========== -->
     <section class="problem-section">
         <div class="container">
             <div class="section-icon">
-                <i class="fas fa-arrow-down"></i>
+                <i class="fas fa-chevron-down bounce"></i>
             </div>
 
             <h2>Muitos pais acham que <span class="highlight">"cada criança tem seu tempo pra ler".</span> Até que…</h2>
@@ -72,7 +76,7 @@
         </div>
     </section>
 
-    <!-- Solution Intro -->
+    <!-- ========== SOLUTION INTRO ========== -->
     <section class="solution-intro">
         <div class="container">
             <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/SETA-1.png" alt="" class="arrow-img">
@@ -94,7 +98,7 @@
         </div>
     </section>
 
-    <!-- Kit Section -->
+    <!-- ========== KIT SECTION ========== -->
     <section class="kit-section">
         <div class="container">
             <h2>Por isso você precisa do Kit...</h2>
@@ -123,12 +127,15 @@
         </div>
     </section>
 
-    <!-- Why It Works Section -->
+    <!-- ========== WHY IT WORKS ========== -->
     <section class="why-works">
         <div class="container">
             <h2>Por que as atividades de Grafismo Fonético funcionam?</h2>
 
-            <div class="divider"></div>
+            <div class="divider">
+                <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Imagem-03-05-2025-as-14.58.jpeg"
+                    alt="">
+            </div>
 
             <div class="why-content">
                 <div class="why-block">
@@ -181,7 +188,7 @@
         </div>
     </section>
 
-    <!-- What Your Child Will Learn -->
+    <!-- ========== WHAT CHILD LEARNS ========== -->
     <section class="learn-section">
         <div class="container">
             <h2><span class="highlight">📚O Que Seu Filho Vai Aprender📚</span></h2>
@@ -198,19 +205,46 @@
                     <h3>Formação de Palavras</h3>
                     <p><b>Atividades dinâmicas</b> que transformam a construção de palavras em diversão.</p>
                 </div>
+
+                <div class="learn-card">
+                    <img src="https://educacaokids.com.br/wp-content/uploads/2024/11/abc-block.png" alt="Brain">
+                    <h3>Estimulação Cognitiva</h3>
+                    <p>Exercícios que <b>desenvolvem a memória, atenção e raciocínio</b> de forma natural.</p>
+                </div>
+
+                <div class="learn-card">
+                    <img src="https://educacaokids.com.br/wp-content/uploads/2024/11/jigsaw.png" alt="Motor">
+                    <h3>Coordenação Motora Fina</h3>
+                    <p>Atividades de grafismo que <b>preparam a mão para a escrita</b> fluente.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Video Section -->
+    <!-- ========== VIDEO SECTION ========== -->
     <section class="video-section" id="video">
         <div class="container">
             <h2>Assista e Descubra Como Funciona</h2>
-            <div class="video-placeholder">
-                <div class="play-button">
-                    <i class="fas fa-play"></i>
+
+            <!-- Player de Vídeo ConverteAI -->
+            <div class="video-container">
+                <div id="vid_67475f192a5c4d4acb990e5c" style="position: relative; width: 100%; padding: 56.25% 0 0;">
+                    <img id="thumb_67475f192a5c4d4acb990e5c"
+                        src="https://images.converteai.net/ee4372af-211b-489b-9e9e-5c0e6c0725aa/players/67475f192a5c4d4acb990e5c/thumbnail.jpg"
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <div id="backdrop_67475f192a5c4d4acb990e5c"
+                        style="position: absolute; top: 0; width: 100%; height: 100%; -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px);">
+                    </div>
                 </div>
-                <p>Vídeo explicativo</p>
+            </div>
+
+            <div class="offer-box">
+                <h3>🎉 OFERTA ESPECIAL POR TEMPO LIMITADO!</h3>
+                <div class="price-box">
+                    <span class="old-price">De R$ 197,00</span>
+                    <span class="new-price">Por apenas R$ 37,00</span>
+                    <span class="discount">81% OFF</span>
+                </div>
             </div>
 
             <a href="https://pay.cakto.com.br/3qye7jq_497015" class="cta-button big pulse" id="btn-checkout">
@@ -219,12 +253,76 @@
 
             <div class="guarantee">
                 <i class="fas fa-shield-alt"></i>
-                <p>Garantia de 7 dias. Se não gostar, devolvemos seu dinheiro.</p>
+                <div>
+                    <strong>Garantia de 7 dias</strong>
+                    <p>Se não gostar, devolvemos 100% do seu dinheiro. Sem perguntas!</p>
+                </div>
+            </div>
+
+            <div class="payment-methods">
+                <img src="https://educacaokids.com.br/wp-content/uploads/2024/11/cards.png" alt="Formas de pagamento"
+                    onerror="this.style.display='none'">
+                <p>Pagamento 100% seguro via Cartão, Pix ou Boleto</p>
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section -->
+    <!-- ========== BONUS SECTION ========== -->
+    <section class="bonus-section">
+        <div class="container">
+            <h2>🎁 BÔNUS EXCLUSIVOS INCLUSOS!</h2>
+
+            <div class="bonus-cards">
+                <div class="bonus-card">
+                    <span class="bonus-badge">BÔNUS 1</span>
+                    <h3>Guia para Pais</h3>
+                    <p>Manual completo com dicas práticas para acompanhar o desenvolvimento do seu filho.</p>
+                </div>
+
+                <div class="bonus-card">
+                    <span class="bonus-badge">BÔNUS 2</span>
+                    <h3>Atividades Extras</h3>
+                    <p>+50 atividades complementares para reforçar o aprendizado.</p>
+                </div>
+
+                <div class="bonus-card">
+                    <span class="bonus-badge">BÔNUS 3</span>
+                    <h3>Acesso Vitalício</h3>
+                    <p>Baixe e imprima quantas vezes quiser, para sempre!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>O Que as Mães Estão Dizendo</h2>
+
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Meu filho de 4 anos aprendeu a reconhecer todas as letras em apenas 2 semanas! Incrível!"</p>
+                    <span class="author">- Maria S., mãe do Pedro</span>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Minha filha tem TDAH e finalmente conseguiu se concentrar nas atividades. Estou muito feliz!"
+                    </p>
+                    <span class="author">- Ana C., mãe da Júlia</span>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"As atividades são lindas e meu filho adora fazer. Virou nosso momento especial juntos."</p>
+                    <span class="author">- Fernanda L., mãe do Lucas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ SECTION ========== -->
     <section class="faq-section">
         <div class="container">
             <h2>Perguntas Frequentes</h2>
@@ -273,11 +371,47 @@
                             em casa.</p>
                     </div>
                 </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Como recebo o material?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Imediatamente após a confirmação do pagamento, você recebe o acesso por e-mail para baixar
+                            todos os materiais.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        E se eu não gostar?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oferecemos garantia de 7 dias. Se não ficar satisfeito, devolvemos 100% do seu dinheiro, sem
+                            perguntas!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ========== FINAL CTA ========== -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Não Deixe Seu Filho Ficar Para Trás!</h2>
+            <p>Quanto antes você começar, mais rápido ele vai aprender a ler.</p>
+
+            <a href="https://pay.cakto.com.br/3qye7jq_497015" class="cta-button big pulse" id="btn-checkout-final">
+                QUERO MEU FILHO LENDO AGORA!
+            </a>
+
+            <p class="urgency">⚠️ Oferta por tempo limitado! O preço pode aumentar a qualquer momento.</p>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -287,8 +421,9 @@
                     <a href="#"><i class="fab fa-whatsapp"></i></a>
                 </div>
                 <p>&copy; 2024 Kit Educação Kids. Todos os direitos reservados.</p>
-                <p class="disclaimer">Este produto é comercializado com apoio da Hotmart. A plataforma não controla o
-                    conteúdo e não avalia previamente a qualidade do produto comercializado.</p>
+                <p class="disclaimer">Este produto é comercializado com apoio da plataforma de pagamentos. A plataforma
+                    não controla o conteúdo e não avalia previamente a qualidade do produto comercializado. Imagens
+                    meramente ilustrativas.</p>
             </div>
         </div>
     </footer>
