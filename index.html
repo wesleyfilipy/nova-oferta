@@ -3,71 +3,761 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kit de Grafismo Fonético – Alfabetização Infantil</title>
-    <meta name="description"
-        content="Descubra a técnica americana que ensina as crianças a ler até 5 vezes mais rápido, sem pressão! Kit de Grafismo Fonético para crianças de 2 a 12 anos.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Pv Grafismo Fonético V2 – Kit Educação Kids</title>
+    <meta name="robots" content="max-image-preview:large">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Player de Vídeo ConverteAI -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- SmartPlayer/ConverteAI -->
     <script
         src="https://scripts.converteai.net/ee4372af-211b-489b-9e9e-5c0e6c0725aa/players/67475f192a5c4d4acb990e5c/player.js"
         async></script>
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Clarity -->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1;
+            t.src = "https://www.clarity.ms/tag/gvap6fq548?ref=wordpress";
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "gvap6fq548");
+    </script>
+
+    <!-- Facebook Pixel -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '757528449147698');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=757528449147698&ev=PageView&noscript=1" /></noscript>
+
+    <!-- TikTok Pixel -->
+    <script>
+        !function (w, d, t) {
+            w.TiktokAnalyticsObject = t; var ttq = w[t] = w[t] || []; ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie"], ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }; for (var i = 0; i < ttq.methods.length; i++)ttq.setAndDefer(ttq, ttq.methods[i]); ttq.instance = function (t) { for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)ttq.setAndDefer(e, ttq.methods[n]); return e }, ttq.load = function (e, n) { var i = "https://analytics.tiktok.com/i18n/pixel/events.js"; ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = i, ttq._t = ttq._t || {}, ttq._t[e] = +new Date, ttq._o = ttq._o || {}, ttq._o[e] = n || {}; var o = document.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = i + "?sdkid=" + e + "&lib=" + t; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(o, a) };
+            ttq.load('CTICVOJC77U8ATAVI74G');
+            ttq.page();
+        }(window, document, 'ttq');
+    </script>
+
+    <!-- UTM e Cookie Script -->
+    <script>
+        (function () {
+            function getParam(name) {
+                return new URLSearchParams(window.location.search).get(name);
+            }
+            function setCookie(name, value, days) {
+                var d = new Date();
+                d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000);
+                document.cookie = name + "=" + encodeURIComponent(value) + "; expires=" + d.toUTCString() + "; path=/; SameSite=Lax";
+            }
+            function getCookie(name) {
+                var m = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+                return m ? decodeURIComponent(m[2]) : null;
+            }
+            var fbclid = getParam('fbclid');
+            if (fbclid) {
+                setCookie('fbclid', fbclid, 90);
+                var ts = Math.floor(Date.now() / 1000);
+                setCookie('_fbc', 'fb.1.' + ts + '.' + fbclid, 90);
+            }
+            var utms = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+            utms.forEach(function (u) {
+                var val = getParam(u);
+                if (val) setCookie(u, val, 30);
+            });
+            function decorate(el) {
+                if (!el || !el.href) return;
+                try {
+                    var url = new URL(el.href, window.location.origin);
+                    utms.forEach(function (u) {
+                        var v = getCookie(u);
+                        if (v) url.searchParams.set(u, v);
+                    });
+                    var fbp = getCookie('_fbp');
+                    var fbc = getCookie('_fbc');
+                    var fbclidStored = getCookie('fbclid');
+                    if (fbp) url.searchParams.set('_fbp', fbp);
+                    if (fbc) url.searchParams.set('_fbc', fbc);
+                    if (fbclidStored) url.searchParams.set('fbclid', fbclidStored);
+                    el.href = url.toString();
+                } catch (e) { }
+            }
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('a[data-checkout="hotmart"], #btn-checkout, .elementor-button')
+                    .forEach(decorate);
+            });
+        })();
+    </script>
+
+    <style>
+        /* Reset e Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Highlight */
+        .highlight {
+            background: linear-gradient(180deg, transparent 60%, #FFE066 60%);
+            padding: 0 5px;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #fff;
+            padding: 40px 0 60px;
+            text-align: center;
+        }
+
+        .hero-image {
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .hero-image img {
+            border-radius: 15px;
+        }
+
+        .hero-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .check-list {
+            list-style: none;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            text-align: left;
+        }
+
+        .check-list li {
+            padding: 10px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .check-list i {
+            color: #4ecdc4;
+            font-size: 1.2rem;
+            margin-top: 3px;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            color: #fff;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            box-shadow: 0 10px 30px rgba(255, 107, 53, 0.4);
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 53, 0.5);
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .hero-description {
+            font-size: 1rem;
+            max-width: 800px;
+            margin: 30px auto 0;
+            opacity: 0.9;
+        }
+
+        /* Problem Section */
+        .problem-section {
+            background: #f8f9fa;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        .problem-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto 30px;
+        }
+
+        .problem-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            font-weight: 600;
+        }
+
+        .problem-highlight {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+            color: #fff;
+            padding: 25px;
+            border-radius: 15px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Solution Section */
+        .solution-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .arrow-image {
+            max-width: 300px;
+            margin: 0 auto 20px;
+        }
+
+        .exclaim-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .exclaim-box img {
+            width: 60px;
+            margin-bottom: 15px;
+        }
+
+        .solution-text {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        /* Kit Section */
+        .kit-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .kit-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .kit-content {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .kit-images img {
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        .kit-benefits {
+            text-align: left;
+        }
+
+        .kit-benefits p {
+            margin-bottom: 15px;
+        }
+
+        /* Why Works Section */
+        .why-section {
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+
+        .why-block {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 50px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .why-block.reverse {
+            grid-template-columns: 1.5fr 1fr;
+        }
+
+        .why-block.reverse .why-image {
+            order: 2;
+        }
+
+        @media (max-width: 768px) {
+
+            .why-block,
+            .why-block.reverse {
+                grid-template-columns: 1fr;
+            }
+
+            .why-block.reverse .why-image {
+                order: 0;
+            }
+        }
+
+        .why-image img {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .why-text h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #1a1a2e;
+        }
+
+        .why-text p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .why-list {
+            list-style: none;
+        }
+
+        .why-list li {
+            padding: 8px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .why-list i {
+            color: #4ecdc4;
+        }
+
+        .why-summary {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            padding: 25px;
+            border-radius: 15px;
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+
+        /* Learn Section */
+        .learn-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .learn-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .learn-card {
+            background: #fff;
+            color: #333;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .learn-card img {
+            width: 70px;
+            margin-bottom: 15px;
+        }
+
+        .learn-card h3 {
+            color: #ff6b35;
+            margin-bottom: 10px;
+        }
+
+        /* Video Section */
+        .video-section {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 30px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+
+        .offer-box {
+            background: linear-gradient(135deg, #ffd700 0%, #ffb347 100%);
+            color: #333;
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+
+        .offer-box h3 {
+            margin-bottom: 15px;
+        }
+
+        .price-box {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            opacity: 0.7;
+            font-size: 1.1rem;
+        }
+
+        .new-price {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #e53935;
+        }
+
+        .discount {
+            background: #e53935;
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 700;
+        }
+
+        .guarantee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .guarantee i {
+            font-size: 2.5rem;
+            color: #4ecdc4;
+        }
+
+        .payment-methods {
+            margin-top: 25px;
+            opacity: 0.8;
+        }
+
+        .payment-methods img {
+            max-width: 300px;
+        }
+
+        /* Bonus Section */
+        .bonus-section {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .bonus-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .bonus-card {
+            background: #fff;
+            color: #333;
+            padding: 30px;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .bonus-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #ff6b35;
+            color: #fff;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .bonus-card h3 {
+            color: #ff6b35;
+            margin: 15px 0 10px;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 60px 0;
+            background: #fff;
+        }
+
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: #f8f9fa;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 20px 25px;
+            background: none;
+            border: none;
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question:hover {
+            background: rgba(0, 0, 0, 0.02);
+        }
+
+        .faq-question i {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+        }
+
+        .faq-answer p {
+            padding: 0 25px 20px;
+            color: #666;
+        }
+
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .final-cta .cta-button {
+            background: #fff;
+            color: #ff6b35;
+        }
+
+        .urgency {
+            margin-top: 20px;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .social-icons {
+            margin-bottom: 25px;
+        }
+
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: #fff;
+            font-size: 1.2rem;
+            margin: 0 8px;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background: #ff6b35;
+            transform: translateY(-3px);
+        }
+
+        footer p {
+            opacity: 0.8;
+            margin-bottom: 8px;
+        }
+
+        .disclaimer {
+            font-size: 0.85rem;
+            max-width: 600px;
+            margin: 15px auto 0;
+            opacity: 0.6;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 1.4rem;
+            }
+
+            .cta-button {
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
+
+            .guarantee {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <!-- ========== HERO SECTION ========== -->
-    <section class="hero">
+    <!-- Hero Section -->
+    <section class="hero-section">
         <div class="container">
-            <div class="hero-content">
+            <div class="hero-image">
                 <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/1_MOCKUP-PRINCIPAL-GRAFISMO-FONETICO.webp"
-                    alt="Kit de Grafismo Fonético" class="hero-image">
-
-                <h1>Descubra a <span class="highlight">técnica americana que ensina as crianças a ler</span> até
-                    <strong>5 vezes mais rápido</strong>, sem pressão!</h1>
-
-                <p class="subtitle">Com apenas <b>10 minutos</b> por dia.</p>
-
-                <ul class="benefits-list">
-                    <li><i class="fas fa-check-circle"></i> Ideal para crianças de 2 a 12 anos, no ritmo natural de cada
-                        uma</li>
-                    <li><i class="fas fa-check-circle"></i> Mesmo que ainda não reconheça letras ou sons</li>
-                    <li><i class="fas fa-check-circle"></i> Funciona também com crianças com TDAH, Autismo ou
-                        dificuldades de foco</li>
-                </ul>
-
-                <a href="#video" class="cta-button pulse">Quero meu pequeno lendo rápido!</a>
-
-                <p class="hero-description">Com o <b>Kit de Grafismo Fonético,</b> baseado no <b>método americano</b> de
-                    alfabetização, seu filho aprende a ler até <b>5x mais rápido</b> — de forma divertida, simples e
-                    eficaz, direto de casa!</p>
+                    alt="Kit Grafismo Fonético">
             </div>
+
+            <h1 class="hero-title">
+                Descubra a <span class="highlight">técnica americana que</span> <span class="highlight">ensina as
+                    crianças a ler</span> até <strong>5 vezes mais rápido</strong>, sem pressão!
+            </h1>
+
+            <p class="hero-subtitle">Com apenas <b>10 minutos</b> por dia.</p>
+
+            <ul class="check-list">
+                <li><i class="fas fa-check-circle"></i> Ideal para crianças de 2 a 12 anos, no ritmo natural de cada uma
+                </li>
+                <li><i class="fas fa-check-circle"></i> Mesmo que ainda não reconheça letras ou sons</li>
+                <li><i class="fas fa-check-circle"></i> Funciona também com crianças com TDAH, Autismo ou dificuldades
+                    de foco</li>
+            </ul>
+
+            <a href="#video" class="cta-button">Quero meu pequeno lendo rápido!</a>
+
+            <p class="hero-description">
+                Com o <b>Kit de Grafismo Fonético,</b> baseado no <b>método americano</b> de alfabetização, seu filho
+                aprende a ler até <b>5x mais rápido</b> — de forma divertida, simples e eficaz, direto de casa!
+            </p>
         </div>
     </section>
 
-    <!-- ========== PROBLEM SECTION ========== -->
+    <!-- Problem Section -->
     <section class="problem-section">
         <div class="container">
-            <div class="section-icon">
-                <i class="fas fa-chevron-down bounce"></i>
-            </div>
-
-            <h2>Muitos pais acham que <span class="highlight">"cada criança tem seu tempo pra ler".</span> Até que…</h2>
+            <h2 class="section-title">
+                Muitos pais acham que <span class="highlight">"cada criança tem seu tempo pra ler".</span> Até que…
+            </h2>
 
             <div class="problem-cards">
-                <div class="problem-card">
-                    <span>👎🏻</span> As tarefas de leitura viram um sofrimento
-                </div>
-                <div class="problem-card">
-                    <span>👎🏻</span> As notas baixas
-                </div>
-                <div class="problem-card">
-                    <span>👎🏻</span> Ela se sente "menos inteligente" do que os coleguinhas
-                </div>
+                <div class="problem-card">👎🏻 As tarefas de leitura viram um sofrimento</div>
+                <div class="problem-card">👎🏻 As notas baixas</div>
+                <div class="problem-card">👎🏻 Ela se sente "menos inteligente" do que os coleguinhas</div>
             </div>
 
             <div class="problem-highlight">
@@ -76,122 +766,125 @@
         </div>
     </section>
 
-    <!-- ========== SOLUTION INTRO ========== -->
-    <section class="solution-intro">
+    <!-- Solution Section -->
+    <section class="solution-section">
         <div class="container">
-            <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/SETA-1.png" alt="" class="arrow-img">
+            <div class="arrow-image">
+                <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/SETA-1.png" alt="Seta">
+            </div>
 
             <div class="exclaim-box">
-                <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/exclaim.png" alt=""
-                    class="exclaim-icon">
+                <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/exclaim.png" alt="Atenção">
                 <h3>Entenda o que realmente <span class="highlight">atrasa a leitura do seu filho...</span></h3>
                 <p>Falta de estímulo fonético na fase certa, o que pode tornar o processo de alfabetização mais lento,
                     frustrante e confuso — tanto para a criança quanto para você.</p>
             </div>
 
-            <p class="solution-text">Mas calma, você não tem culpa disso... É que ninguém te ensinou como ajudar seu
-                filho a despertar a leitura de forma leve, divertida e no tempo certo.</p>
+            <p class="solution-text">
+                Mas calma, você não tem culpa disso... É que ninguém te ensinou como ajudar seu filho a despertar a
+                leitura de forma leve, divertida e no tempo certo.
+            </p>
 
-            <div class="section-icon">
-                <i class="fas fa-arrow-down"></i>
-            </div>
+            <p style="font-size: 2rem; margin-top: 20px;"><i class="fas fa-arrow-down" style="color: #ff6b35;"></i></p>
         </div>
     </section>
 
-    <!-- ========== KIT SECTION ========== -->
+    <!-- Kit Section -->
     <section class="kit-section">
         <div class="container">
-            <h2>Por isso você precisa do Kit...</h2>
+            <h2 class="section-title">Por isso você precisa do Kit...</h2>
 
             <div class="kit-content">
                 <div class="kit-images">
                     <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/1_MOCKUP-PRINCIPAL-GRAFISMO-FONETICO.webp"
-                        alt="Kit de Grafismo Fonético" class="kit-main-image">
-                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/JcDcvm3874423-643x1024.webp"
-                        alt="Criança estudando" class="kit-secondary-image">
+                        alt="Kit Grafismo">
+                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/JcDcvm3874423.webp"
+                        alt="Criança aprendendo" style="max-width: 300px;">
                 </div>
 
                 <div class="kit-benefits">
                     <p>Cada atividade do Kit de Grafismo Fonético foi cuidadosamente criada para:</p>
-                    <ul>
-                        <li>✅ Desenvolver a coordenação motora fina</li>
-                        <li>✅ Estimular a criatividade e a atenção da criança</li>
-                        <li>✅ Fortalecer as conexões cerebrais que facilitam a leitura</li>
-                        <li>✅ Despertar o interesse pelas palavras e pelos sons</li>
-                        <li>✅ Tornar o processo de alfabetização leve, divertido e eficaz!</li>
-                    </ul>
-                    <p class="kit-note">Tudo isso com apenas alguns minutos por dia — direto de casa, no ritmo natural
-                        da criança.</p>
+                    <p>✅ Desenvolver a coordenação motora fina</p>
+                    <p>✅ Estimular a criatividade e a atenção da criança</p>
+                    <p>✅ Fortalecer as conexões cerebrais que facilitam a leitura</p>
+                    <p>✅ Despertar o interesse pelas palavras e pelos sons</p>
+                    <p>✅ Tornar o processo de alfabetização leve, divertido e eficaz!</p>
+                    <p style="margin-top: 20px;">Tudo isso com apenas alguns minutos por dia — direto de casa, no ritmo
+                        natural da criança.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== WHY IT WORKS ========== -->
-    <section class="why-works">
+    <!-- Why It Works Section -->
+    <section class="why-section">
         <div class="container">
-            <h2>Por que as atividades de Grafismo Fonético funcionam?</h2>
+            <h2 class="section-title" style="text-align: center;">Por que as atividades de Grafismo Fonético funcionam?
+            </h2>
 
-            <div class="divider">
-                <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Imagem-03-05-2025-as-14.58.jpeg"
-                    alt="">
+            <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Imagem-03-05-2025-as-14.58.jpeg"
+                alt="Divider" style="display: block; max-width: 800px; margin: 0 auto 40px;">
+
+            <div class="why-block">
+                <div class="why-image">
+                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Menina-com-Atividades-Ludicas-de-Grafismo-Fonetico.webp"
+                        alt="Menina com atividades">
+                </div>
+                <div class="why-text">
+                    <h3>Antes de aprender a ler, o cérebro da criança precisa reconhecer padrões, sons e movimentos.
+                    </h3>
+                    <p>As atividades de grafismo fonético desenvolvem a <strong>consciência fonológica e visual</strong>
+                        — habilidades essenciais para que a criança reconheça sílabas, sons e estruturas das palavras de
+                        forma natural.</p>
+                    <p>Ao traçar linhas, curvas e padrões fonéticos, ela fortalece as conexões cerebrais responsáveis
+                        pela leitura, <strong>acelerando o processo de alfabetização de forma divertida e sem
+                            pressão.</strong></p>
+                </div>
             </div>
 
-            <div class="why-content">
-                <div class="why-block">
-                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Menina-com-Atividades-Ludicas-de-Grafismo-Fonetico.webp"
-                        alt="Menina estudando">
-                    <div class="why-text">
-                        <h3>Antes de aprender a ler, o cérebro da criança precisa reconhecer padrões, sons e movimentos.
-                        </h3>
-                        <p>As atividades de grafismo fonético desenvolvem a <strong>consciência fonológica e
-                                visual</strong> — habilidades essenciais para que a criança reconheça sílabas, sons e
-                            estruturas das palavras de forma natural.</p>
-                        <p>Ao traçar linhas, curvas e padrões fonéticos, ela fortalece as conexões cerebrais
-                            responsáveis pela leitura, <strong>acelerando o processo de alfabetização de forma divertida
-                                e sem pressão.</strong></p>
-                    </div>
-                </div>
-
-                <div class="why-block reverse">
+            <div class="why-block reverse">
+                <div class="why-image">
                     <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Mae-com-seu-filho-ajudando-nas-atividades-de-grafismo-fonetico.webp"
                         alt="Mãe ajudando filho">
-                    <div class="why-text">
-                        <h3>E em poucos dias você vai notar a diferença na leitura do seu filho:</h3>
-                        <ul class="check-list">
-                            <li><i class="far fa-check-circle"></i> Vai reconhecer sílabas e sons com mais facilidade
-                            </li>
-                            <li><i class="far fa-check-circle"></i> Vai se sentir mais confiante ao tentar ler palavras
-                                novas</li>
-                            <li><i class="far fa-check-circle"></i> Vai mostrar mais interesse por livros e histórias
-                            </li>
-                            <li><i class="far fa-check-circle"></i> Vai aprender no ritmo dele, sem frustração ou
-                                comparação</li>
-                            <li><i class="far fa-check-circle"></i> E o melhor: vai começar a gostar do momento de
-                                leitura em casa</li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="why-text">
+                    <h3>E em poucos dias você vai notar a diferença na leitura do seu filho:</h3>
+                    <ul class="why-list">
+                        <li><i class="far fa-check-circle"></i> Vai reconhecer sílabas e sons com mais facilidade</li>
+                        <li><i class="far fa-check-circle"></i> Vai se sentir mais confiante ao tentar ler palavras
+                            novas</li>
+                        <li><i class="far fa-check-circle"></i> Vai mostrar mais interesse por livros e história</li>
+                        <li><i class="far fa-check-circle"></i> Vai aprender no ritmo dele, sem frustração ou comparação
+                        </li>
+                        <li><i class="far fa-check-circle"></i> E o melhor: vai começar a gostar do momento de leitura
+                            em casa</li>
+                    </ul>
                 </div>
             </div>
 
-            <p class="why-summary">Com o <b>Kit de Grafismo Fonético, seu filho</b> desenvolve o cérebro para aprender a
-                ler com leveza, no tempo dele — e com resultados visíveis em poucos dias.</p>
-
-            <div class="cta-box">
-                <div class="cta-icon">
-                    <i class="fas fa-pencil-alt"></i>
-                </div>
-                <h3>Comece a jornada de <b>aprendizado do seu filho hoje</b></h3>
+            <div class="why-summary">
+                Com o <b>Kit de Grafismo Fonético, seu filho</b> desenvolve o cérebro para aprender a ler com leveza, no
+                tempo dele — e com resultados visíveis em poucos dias.
             </div>
 
-            <a href="#video" class="cta-button pulse">Quero meu filho(a) Lendo!</a>
+            <div style="text-align: center;">
+                <div
+                    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 25px; border-radius: 15px; max-width: 500px; margin: 0 auto 30px;">
+                    <i class="fas fa-pencil-alt" style="font-size: 2rem; margin-bottom: 15px;"></i>
+                    <h3>Comece a jornada de <b>aprendizado do seu filho hoje</b></h3>
+                </div>
+                <a href="#video" class="cta-button">Quero meu filho(a) Lendo!</a>
+            </div>
         </div>
     </section>
 
-    <!-- ========== WHAT CHILD LEARNS ========== -->
+    <!-- Learn Section -->
     <section class="learn-section">
         <div class="container">
-            <h2><span class="highlight">📚O Que Seu Filho Vai Aprender📚</span></h2>
+            <h2 class="section-title">
+                <span class="highlight">📚 O Que Seu Filho</span><br>
+                <span class="highlight">Vai Aprender 📚</span>
+            </h2>
 
             <div class="learn-cards">
                 <div class="learn-card">
@@ -199,34 +892,26 @@
                     <h3>Reconhecimento de Sons e Letras</h3>
                     <p>Cada som é associado a <b>fortalecendo as conexões cerebrais</b> de forma sólida e duradoura.</p>
                 </div>
-
                 <div class="learn-card">
                     <img src="https://educacaokids.com.br/wp-content/uploads/2024/11/jigsaw.png" alt="Puzzle">
                     <h3>Formação de Palavras</h3>
-                    <p><b>Atividades dinâmicas</b> que transformam a construção de palavras em diversão.</p>
+                    <p><b>Atividades dinâmicas</b> que transformam a consciência fonológica em leitura real.</p>
                 </div>
-
                 <div class="learn-card">
-                    <img src="https://educacaokids.com.br/wp-content/uploads/2024/11/abc-block.png" alt="Brain">
-                    <h3>Estimulação Cognitiva</h3>
-                    <p>Exercícios que <b>desenvolvem a memória, atenção e raciocínio</b> de forma natural.</p>
-                </div>
-
-                <div class="learn-card">
-                    <img src="https://educacaokids.com.br/wp-content/uploads/2024/11/jigsaw.png" alt="Motor">
-                    <h3>Coordenação Motora Fina</h3>
-                    <p>Atividades de grafismo que <b>preparam a mão para a escrita</b> fluente.</p>
+                    <img src="https://educacaokids.com.br/wp-content/uploads/2024/11/abc-block.png" alt="Leitura">
+                    <h3>Leitura Fluente</h3>
+                    <p>Seu filho desenvolve <b>fluidez e confiança</b> para ler qualquer texto.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== VIDEO SECTION ========== -->
+    <!-- Video Section -->
     <section class="video-section" id="video">
         <div class="container">
-            <h2>Assista e Descubra Como Funciona</h2>
+            <h2 class="section-title">Assista e Descubra Como Funciona</h2>
 
-            <!-- Player de Vídeo ConverteAI -->
+            <!-- Player ConverteAI/SmartPlayer -->
             <div class="video-container">
                 <div id="vid_67475f192a5c4d4acb990e5c" style="position: relative; width: 100%; padding: 56.25% 0 0;">
                     <img id="thumb_67475f192a5c4d4acb990e5c"
@@ -247,7 +932,8 @@
                 </div>
             </div>
 
-            <a href="https://pay.cakto.com.br/3qye7jq_497015" class="cta-button big pulse" id="btn-checkout">
+            <a href="https://pay.cakto.com.br/3qye7jq_497015" class="cta-button" id="btn-checkout"
+                style="font-size: 1.3rem; padding: 22px 50px;">
                 QUERO GARANTIR O KIT AGORA!
             </a>
 
@@ -255,7 +941,8 @@
                 <i class="fas fa-shield-alt"></i>
                 <div>
                     <strong>Garantia de 7 dias</strong>
-                    <p>Se não gostar, devolvemos 100% do seu dinheiro. Sem perguntas!</p>
+                    <p style="margin: 0; font-size: 0.9rem;">Se não gostar, devolvemos 100% do seu dinheiro. Sem
+                        perguntas!</p>
                 </div>
             </div>
 
@@ -267,65 +954,35 @@
         </div>
     </section>
 
-    <!-- ========== BONUS SECTION ========== -->
+    <!-- Bonus Section -->
     <section class="bonus-section">
         <div class="container">
-            <h2>🎁 BÔNUS EXCLUSIVOS INCLUSOS!</h2>
+            <h2 class="section-title">🎁 BÔNUS EXCLUSIVOS 🎁</h2>
 
             <div class="bonus-cards">
                 <div class="bonus-card">
                     <span class="bonus-badge">BÔNUS 1</span>
-                    <h3>Guia para Pais</h3>
-                    <p>Manual completo com dicas práticas para acompanhar o desenvolvimento do seu filho.</p>
+                    <h3>Guia de Atividades Extras</h3>
+                    <p>50+ atividades complementares para potencializar o aprendizado do seu filho.</p>
                 </div>
-
                 <div class="bonus-card">
                     <span class="bonus-badge">BÔNUS 2</span>
-                    <h3>Atividades Extras</h3>
-                    <p>+50 atividades complementares para reforçar o aprendizado.</p>
+                    <h3>Calendário de Estudos</h3>
+                    <p>Organize a rotina de estudos com nosso calendário especial de 30 dias.</p>
                 </div>
-
                 <div class="bonus-card">
                     <span class="bonus-badge">BÔNUS 3</span>
-                    <h3>Acesso Vitalício</h3>
-                    <p>Baixe e imprima quantas vezes quiser, para sempre!</p>
+                    <h3>Suporte Exclusivo</h3>
+                    <p>Acesso ao nosso grupo VIP para tirar dúvidas e trocar experiências.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== TESTIMONIALS ========== -->
-    <section class="testimonials-section">
-        <div class="container">
-            <h2>O Que as Mães Estão Dizendo</h2>
-
-            <div class="testimonials">
-                <div class="testimonial">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"Meu filho de 4 anos aprendeu a reconhecer todas as letras em apenas 2 semanas! Incrível!"</p>
-                    <span class="author">- Maria S., mãe do Pedro</span>
-                </div>
-
-                <div class="testimonial">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"Minha filha tem TDAH e finalmente conseguiu se concentrar nas atividades. Estou muito feliz!"
-                    </p>
-                    <span class="author">- Ana C., mãe da Júlia</span>
-                </div>
-
-                <div class="testimonial">
-                    <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"As atividades são lindas e meu filho adora fazer. Virou nosso momento especial juntos."</p>
-                    <span class="author">- Fernanda L., mãe do Lucas</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== FAQ SECTION ========== -->
+    <!-- FAQ Section -->
     <section class="faq-section">
         <div class="container">
-            <h2>Perguntas Frequentes</h2>
+            <h2 class="section-title" style="text-align: center;">Perguntas Frequentes</h2>
 
             <div class="faq-list">
                 <div class="faq-item">
@@ -334,8 +991,7 @@
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>O Kit de Grafismo Fonético é ideal para crianças de 2 a 12 anos, respeitando o ritmo natural
-                            de cada uma.</p>
+                        <p>O Kit é ideal para crianças de 2 a 12 anos, adaptando-se ao ritmo natural de cada uma.</p>
                     </div>
                 </div>
 
@@ -346,29 +1002,7 @@
                     </button>
                     <div class="faq-answer">
                         <p>Sim! As atividades foram desenvolvidas para serem inclusivas e funcionam muito bem com
-                            crianças que têm TDAH, Autismo ou dificuldades de foco.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Quanto tempo por dia preciso dedicar?
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Apenas 10 minutos por dia são suficientes para ver resultados significativos em poucas
-                            semanas.</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <button class="faq-question">
-                        O material é físico ou digital?
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                    <div class="faq-answer">
-                        <p>O Kit é 100% digital. Você recebe acesso imediato após a compra e pode imprimir as atividades
-                            em casa.</p>
+                            crianças com diferentes necessidades de aprendizado.</p>
                     </div>
                 </div>
 
@@ -378,8 +1012,19 @@
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Imediatamente após a confirmação do pagamento, você recebe o acesso por e-mail para baixar
-                            todos os materiais.</p>
+                        <p>Após a confirmação do pagamento, você recebe acesso imediato por e-mail. Todo o material é
+                            digital e pode ser impresso quantas vezes quiser.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Quanto tempo por dia preciso dedicar?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Apenas 10 a 15 minutos por dia são suficientes para ver resultados significativos em poucas
+                            semanas.</p>
                     </div>
                 </div>
 
@@ -389,46 +1034,62 @@
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Oferecemos garantia de 7 dias. Se não ficar satisfeito, devolvemos 100% do seu dinheiro, sem
-                            perguntas!</p>
+                        <p>Você tem 7 dias de garantia incondicional. Se não ficar satisfeita, devolvemos 100% do seu
+                            dinheiro, sem perguntas.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========== FINAL CTA ========== -->
+    <!-- Final CTA -->
     <section class="final-cta">
         <div class="container">
-            <h2>Não Deixe Seu Filho Ficar Para Trás!</h2>
-            <p>Quanto antes você começar, mais rápido ele vai aprender a ler.</p>
-
-            <a href="https://pay.cakto.com.br/3qye7jq_497015" class="cta-button big pulse" id="btn-checkout-final">
-                QUERO MEU FILHO LENDO AGORA!
-            </a>
-
-            <p class="urgency">⚠️ Oferta por tempo limitado! O preço pode aumentar a qualquer momento.</p>
+            <h2 class="section-title">Não deixe seu filho ficar para trás!</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 30px;">Garanta agora o Kit de Grafismo Fonético e veja a
+                transformação na leitura do seu pequeno.</p>
+            <a href="https://pay.cakto.com.br/3qye7jq_497015" class="cta-button">QUERO MEU KIT AGORA!</a>
+            <p class="urgency">⚡ Oferta por tempo limitado - Apenas R$ 37,00</p>
         </div>
     </section>
 
-    <!-- ========== FOOTER ========== -->
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                </div>
-                <p>&copy; 2024 Kit Educação Kids. Todos os direitos reservados.</p>
-                <p class="disclaimer">Este produto é comercializado com apoio da plataforma de pagamentos. A plataforma
-                    não controla o conteúdo e não avalia previamente a qualidade do produto comercializado. Imagens
-                    meramente ilustrativas.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
+            <p>© 2024 Kit Educação Kids - Todos os direitos reservados</p>
+            <p class="disclaimer">Este produto é comercializado com apoio da Cakto. As imagens são meramente
+                ilustrativas.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- FAQ Toggle Script -->
+    <script>
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
