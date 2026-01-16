@@ -379,99 +379,49 @@
         }
 
         /* ================================ */
-        /* WHY SECTION (Por que funciona) */
+        /* VIDEO SECTION */
         /* ================================ */
-        .why-section {
-            background: #f5f0e8;
+        .video-section {
+            background: linear-gradient(135deg, #085d8a 0%, #674ea7 100%);
+            color: #fff;
             padding: 70px 0;
+            text-align: center;
         }
 
-        .section-title {
-            text-align: center;
+        .video-title {
             font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .video-subtitle {
+            font-size: 1.2rem;
             margin-bottom: 30px;
-            color: #333;
+            opacity: 0.9;
         }
 
-        .separator-line {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .separator-line img {
-            max-width: 100%;
-        }
-
-        .why-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            align-items: center;
-            margin-bottom: 50px;
-            background: #fff;
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-        }
-
-        .why-grid.reverse {
-            direction: rtl;
-        }
-
-        .why-grid.reverse>* {
-            direction: ltr;
-        }
-
-        @media (max-width: 768px) {
-
-            .why-grid,
-            .why-grid.reverse {
-                grid-template-columns: 1fr;
-                direction: ltr;
-            }
-        }
-
-        .why-image img {
-            width: 100%;
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto 40px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
         }
 
-        .why-content h3 {
-            font-size: 1.4rem;
-            color: #333;
-            margin-bottom: 20px;
-            line-height: 1.5;
-        }
-
-        .why-content p {
-            color: #555;
-            line-height: 1.8;
-            margin-bottom: 15px;
-        }
-
-        .results-list {
-            list-style: none;
-        }
-
-        .results-list li {
-            padding: 10px 0;
-            font-size: 1.05rem;
-            color: #333;
-            border-bottom: 1px solid #eee;
-        }
-
-        .results-list li:last-child {
-            border-bottom: none;
+        .video-container video {
+            width: 100%;
+            display: block;
+            background: #000;
         }
 
         .cta-box {
-            background: linear-gradient(135deg, #674ea7 0%, #5a3d9a 100%);
-            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
             padding: 40px;
             border-radius: 20px;
             text-align: center;
             margin-top: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .cta-box h3 {
@@ -1181,49 +1131,19 @@
     </section>
 
     <!-- ================================ -->
-    <!-- POR QUE FUNCIONA SECTION -->
+    <!-- VIDEO SECTION -->
     <!-- ================================ -->
-    <section class="why-section" id="video">
+    <section class="video-section" id="video">
         <div class="container">
-            <h2 class="section-title">Por que as atividades de Grafismo Fonético funcionam?</h2>
+            <h2 class="video-title">Veja como é fácil ensinar seu filho(a) a ler...</h2>
+            <p class="video-subtitle">Aperte o play 👇</p>
 
-            <div class="separator-line">
-                <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Imagem-03-05-2025-as-14.58.jpeg"
-                    alt="Separador">
-            </div>
-
-            <div class="why-grid">
-                <div class="why-image">
-                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Menina-com-Atividades-Ludicas-de-Grafismo-Fonetico.webp"
-                        alt="Menina com atividades lúdicas de grafismo fonético">
-                </div>
-                <div class="why-content">
-                    <h3>Antes de aprender a ler, o cérebro da criança precisa reconhecer padrões, sons e movimentos.
-                    </h3>
-                    <p>As atividades de grafismo fonético desenvolvem a <strong>consciência fonológica e visual</strong>
-                        — habilidades essenciais para que a criança reconheça sílabas, sons e estruturas das palavras de
-                        forma natural.</p>
-                    <p>Ao traçar linhas, curvas e padrões fonéticos, ela fortalece as conexões cerebrais responsáveis
-                        pela leitura, <strong>acelerando o processo de alfabetização de forma divertida e sem
-                            pressão.</strong></p>
-                </div>
-            </div>
-
-            <div class="why-grid reverse">
-                <div class="why-image">
-                    <img src="https://educacaokids.com.br/wp-content/uploads/2025/05/Mae-com-seu-filho-ajudando-nas-atividades-de-grafismo-fonetico.webp"
-                        alt="Mãe ajudando filho nas atividades">
-                </div>
-                <div class="why-content">
-                    <h3>E em poucos dias você vai notar a diferença na leitura do seu filho:</h3>
-                    <ul class="results-list">
-                        <li>✅ Vai reconhecer sílabas e sons com mais facilidade</li>
-                        <li>✅ Vai se sentir mais confiante ao tentar ler palavras novas</li>
-                        <li>✅ Vai mostrar mais interesse por livros e histórias</li>
-                        <li>✅ Vai aprender no ritmo dele, sem frustração ou comparação</li>
-                        <li>✅ E o melhor: vai começar a gostar do momento de leitura em casa</li>
-                    </ul>
-                </div>
+            <div class="video-container">
+                <video id="main-video" controls playsinline preload="metadata"
+                    poster="https://educacaokids.com.br/wp-content/uploads/2025/05/1_MOCKUP-PRINCIPAL-GRAFISMO-FONETICO.webp">
+                    <source src="Pv_Grafismo_Fonético_V2_–_Kit_Educação_Kids.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
             </div>
 
             <div class="cta-box">
@@ -1231,7 +1151,7 @@
                     leveza, no tempo dele — e com resultados visíveis em poucos dias.</h3>
                 <div class="cta-icon"><i class="fas fa-pencil-alt"></i></div>
                 <p class="cta-text">Comece a jornada de <b>aprendizado do seu filho hoje</b></p>
-                <a href="https://pay.cakto.com.br/3qye7jq_497015" class="btn-cta" id="btn-checkout">Quero meu filho(a)
+                <a href="https://pay.cakto.com.br/3qye7jq_497015" class="btn-cta btn-checkout">Quero meu filho(a)
                     Lendo!</a>
             </div>
         </div>
